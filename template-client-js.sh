@@ -1,5 +1,5 @@
 #!/bin/bash
-echo"
+echo "
 import {$1} from '../../components';
 import {bemAppRendererFactory} from 'yandex-money-bem-app-renderer';
 

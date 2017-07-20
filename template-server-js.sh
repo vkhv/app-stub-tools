@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 echo "
 import React from 'react';
 import {$1} from '../../components';

@@ -11,5 +11,5 @@ mkdir $pathToAppView
 touch $pathToReactFile
 touch $pathToReactServerFile
 
-./template-client-js.sh > $pathToReactFile
-./template-server-js.sh > $pathToReactServerFile
+./template-client-js.sh > $pathToReactFile $2
+./template-server-js.sh > $pathToReactServerFile $2
