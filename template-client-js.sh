@@ -1,14 +1,8 @@
 #!bin/bash
+
+import React from 'react';
 import {$1} from '../../components';
-import {bemAppRendererFactory} from 'yandex-money-bem-app-renderer';
 
-const bemAppRenderer = bemAppRendererFactory($1);
-
-bemAppRenderer.render();
-
-// @todo redux hmr
-if (module.hot) {
-	module.hot.accept(() => {
-		bemAppRenderer.render();
-	});
-}
+export default (data) => {
+	return <$1 data={data} />;
+};
