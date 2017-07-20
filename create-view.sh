@@ -10,3 +10,6 @@ pathToReactServerFile="$pathToAppView/$2.server.js"
 mkdir $pathToAppView
 touch $pathToReactFile
 touch $pathToReactServerFile
+
+./template-client-js.sh > $pathToReactFile
+./template-server-js.sh > $pathToReactServerFile
